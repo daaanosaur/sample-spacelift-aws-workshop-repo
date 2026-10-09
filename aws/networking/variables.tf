@@ -43,7 +43,7 @@ variable "tags" {
   type        = map(string)
   description = "Tags applied to every resource."
   default = {
-    Project   = "workshop"
+    Project   = "workshop-demo"
     ManagedBy = "spacelift"
   }
 }
