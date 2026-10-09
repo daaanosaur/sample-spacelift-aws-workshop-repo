@@ -34,7 +34,7 @@ variable "cluster_admin_principal_arns" {
 
   # CHANGE ME: the IAM role or user you run kubectl as. Replace the placeholder or
   # you will not be able to reach the cluster.
-  default = ["arn:aws:iam::<YOUR_AWS_ACCOUNT_ID>:role/<YOUR_IAM_ROLE_NAME>"]
+  default = ["arn:aws:iam::116165104577:role/code-editor-CodeEditorInstanceBootstrapRole-Qo2etZHDPf3P"]
 }
 
 ################################################################################
@@ -114,7 +114,7 @@ variable "argocd_admin_user_names" {
 
   # CHANGE ME: an existing IAM Identity Center user name in your account. With no
   # valid member here nobody can get into the Argo CD UI.
-  default = ["<YOUR_IDC_USER_NAME>"]
+  default = ["workshop-user"]
 }
 
 variable "argocd_admin_sso_group_ids" {

@@ -17,5 +17,5 @@ metadata:
 type: Opaque
 stringData:
   name: in-cluster
-  server: "arn:aws:eks:<YOUR_AWS_REGION>:<YOUR_AWS_ACCOUNT_ID>:cluster/<YOUR_CLUSTER_NAME>"
+  server: "arn:aws:eks:eu-west-1:116165104577:cluster/workshop"
   project: default
